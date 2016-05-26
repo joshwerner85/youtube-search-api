@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>YouTube Api</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
+		<title>SearchVidz</title>
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/jquery.fancybox.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="scripts/main.js"></script>
+		<script src="scripts/jquery.fancybox.pack.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".fancybox").fancybox();
+			});
+		</script>
 	</head>
 	<body>
 		<div id="container">
@@ -25,7 +32,7 @@
 				<div id="buttons"></div>
 			</section>
 			<footer>
-				<p>Copyright &copy; 2014, All Rights Reserved</p>
+				<p>Copyright &copy; 2016, All Rights Reserved</p>
 			</footer>
 		</div>
 	</body>
